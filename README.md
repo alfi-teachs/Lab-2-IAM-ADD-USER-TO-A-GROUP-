@@ -1,4 +1,6 @@
 # IAM-Lab-2-ADD-USER-TO-A-GROUP-
+https://www.youtube.com/watch?v=f47aqr6aSrY
+
 How to create a group and user to it.
 
 Create user2 no permission
