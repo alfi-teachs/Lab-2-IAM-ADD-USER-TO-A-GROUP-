@@ -1,25 +1,73 @@
 # IAM-Lab-2-ADD-USER-TO-A-GROUP-
 https://www.youtube.com/watch?v=f47aqr6aSrY
 
-How to create a group and user to it.
+Create a Group (Developers) in AWS IAM
 
-Create user2 no permission
- Username → IAM user → Custom password → Create user
+Log in to AWS Console
 
-Create group (IAM full access)
- User group → Group name → Policy (IAMFullAccess) → Create group
+Go to IAM (Identity and Access Management)
 
-Add user to group
- User group → Select group → Add user
+In the left panel → click User groups
 
-Login to IAM user
- Root ID → Username → Password
+Click Create group
 
-Remove user from group
- User group → Select user → Remove
+# Step 1: Name the Group
 
-Login to IAM user
- Root ID → Username → Password
+Enter group name:
+developers
 
-Check IAM full access
- No access available because user has no permission
+👉 Click Next
+
+ # Step 2: Attach Permissions
+
+Here’s the key part for your lab:
+
+Do NOT select any policy
+
+Just leave everything unchecked.
+
+👉 Click Next
+
+# Step 3: Review & Create
+
+Verify:
+
+Group name: developers
+
+No policies attached
+
+👉 Click Create group
+
+Add Existing Users to the Group
+
+Now you already have users, so let’s attach them.
+
+Go to User groups
+
+Click on developers
+
+Click Add users
+
+Select the users you already created
+(tick the checkbox next to usernames)
+
+👉 Click Add users
+
+# Final Result
+
+Group developers is created
+
+No permissions (empty group)
+
+Users are successfully added to the group
+
+# Important Understanding (very useful for interview)
+
+Here’s the thing:
+
+A group without policies = no permissions
+
+Users inside that group = still no permissions
+
+What this really means is:
+👉 Group is just a container until you attach a policy
