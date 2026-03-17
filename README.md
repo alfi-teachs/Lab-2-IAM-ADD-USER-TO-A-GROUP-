@@ -1,7 +1,7 @@
 # IAM-Lab-2-ADD-USER-TO-A-GROUP-
 https://www.youtube.com/watch?v=f47aqr6aSrY
 
-Create a Group (Developers) in AWS IAM
+# Create a Group (Developers) in AWS IAM
 
 Log in to AWS Console
 
